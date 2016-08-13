@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+	<title>Logo-search</title>
+</head>
+<body>
+	<h1>Society Education Programs</h1>
+
+	<div class="option-area">
+		<select id=programType>
+			<option id="type" value="program-type">PROGRAM TYPE</option>
+			<option value="search-all">SEARCH ALL</option>
+			<option value="scholarship">SCHOLARSHIP PROGRAM</option>
+			<option value="loan-program">LOAN PROGRAM</option>
+
+		</select>
+
+		<select id="level-of-education">
+			<option value="education-level">EDUCATION LEVEL</option>
+			<option value="search-all">SEARCH ALL</option>
+			<option value="k-12">K-12</option>
+			<option value="high-school">HIGH SCHOOL</option>
+		</select></br>
+
+		<div class="button">
+			<input type="button" id="search" value="SEARCH">
+		</div>
+	</div>
+
+	<div class="logos">
+		<div class="aci scholarship high-school search-all"></div>
+		<div class="aci loan high-school search-all"></div>
+		<div class="aci loan k-12 search-all"></div>
+
+		
+		<div class="acm loan-program k-12 search-all"></div>
+		<div class="acm scholarship high-school search-all"></div>
+		<div class="acm scholarship k-12 search-all"></div>
+
+		<div class="afe loan-program k-12 search-all"></div> 
+		<div class="afe scholarship high-school search-all"></div>
+		<div class="afe loan-program high-school search-all"></div>
+
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="app.js"></script>	
+</body>
+</html>

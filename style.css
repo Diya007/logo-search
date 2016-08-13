@@ -1,0 +1,51 @@
+
+h1{
+	text-align:center;
+	color:#85091E;
+	font-family: 'Montez', cursive;
+}
+
+.option-area {
+	width: 700px ;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	background-color: #CFD3D4;
+	text-align:center;
+}
+
+#programType{
+	margin-right:20px;
+}
+
+.button{
+	text-align:center;
+	margin:auto;
+}
+
+#search{
+	margin-top:15px;
+	background-color:#85091E;
+}
+
+.logos{
+	text-align:center;
+	margin-top: 50px;
+}
+
+.aci{
+	content:url("Logos/aci.png");
+	
+}
+
+.acm {
+	content:url("Logos/acm.png");
+	
+}
+
+.afe{
+	content:url("Logos/AFE.png");
+
+}
+
