@@ -34,18 +34,46 @@ h1{
 	margin-top: 50px;
 }
 
+.scholarship{
+	content:url("Logos/acm - color.png");
+}
+
+.high-school .scholarship{
+	content:url("Logos/acm - color.png");
+}
+
+
 .aci{
-	content:url("Logos/aci.png");
+	content:url("Logos/aci - color.png");
+	float:left;
+	display: inline;
+
+
 	
 }
 
 .acm {
-	content:url("Logos/acm.png");
-	
+	content:url("Logos/acm - color.png");
+	float:left;
+	display: inline;
+
 }
 
-.afe{
+.afe {
+	content:url("Logos/AFE color.png");
+	float:left;
+	display: inline;
+
+}
+
+.search-all{
+	-webkit-filter: grayscale(100%);
+}
+
+
+
+/*.search-all{
 	content:url("Logos/AFE.png");
 
-}
+}*/
 
