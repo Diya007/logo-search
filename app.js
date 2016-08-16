@@ -19,6 +19,16 @@
 			$(".afe."+program+"."+education).removeClass("search-all");
 		}
 
+		else if(program== "SEARCH ALL" && education!=="SEARCH ALL"){
+			$(".aci."+education).removeClass("search-all");
+			$(".acm."+education).removeClass("search-all");
+			$(".afe."+education).removeClass("search-all");
+		}
+		else if(program!== "SEARCH ALL" && education=="SEARCH ALL"){
+			$(".aci."+program).removeClass("search-all");
+			$(".acm."+program).removeClass("search-all");
+			$(".afe."+program).removeClass("search-all");
+		}
 
 	})
 

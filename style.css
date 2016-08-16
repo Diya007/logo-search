@@ -29,10 +29,7 @@ h1{
 	background-color:#85091E;
 }
 
-.logos{
-	text-align:center;
-	margin-top: 50px;
-}
+
 
 .scholarship{
 	content:url("Logos/acm - color.png");
@@ -45,23 +42,18 @@ h1{
 
 .aci{
 	content:url("Logos/aci - color.png");
-	float:left;
 	display: inline;
-
-
-	
+	float:left;
 }
 
 .acm {
 	content:url("Logos/acm - color.png");
-	float:left;
 	display: inline;
-
+	float:left;
 }
 
 .afe {
 	content:url("Logos/AFE color.png");
-	float:left;
 	display: inline;
 
 }
@@ -70,10 +62,9 @@ h1{
 	-webkit-filter: grayscale(100%);
 }
 
+.logos{ 
+	margin-left: 250px;
+	margin-top: 50px;
+}
 
-
-/*.search-all{
-	content:url("Logos/AFE.png");
-
-}*/
 
