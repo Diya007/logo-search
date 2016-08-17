@@ -30,31 +30,28 @@ h1{
 }
 
 
-
-.scholarship{
-	content:url("Logos/acm - color.png");
+.logos{
+	text-align: center;
+	margin-top: 50px;
 }
 
-.high-school .scholarship{
-	content:url("Logos/acm - color.png");
+#ACM,#ACI{
+	padding:10px;
 }
-
-
 .aci{
 	content:url("Logos/aci - color.png");
-	display: inline;
-	float:left;
+	
+	
 }
 
 .acm {
 	content:url("Logos/acm - color.png");
-	display: inline;
-	float:left;
+	
+	
 }
 
 .afe {
 	content:url("Logos/AFE color.png");
-	display: inline;
 
 }
 
@@ -62,9 +59,6 @@ h1{
 	-webkit-filter: grayscale(100%);
 }
 
-.logos{ 
-	margin-left: 250px;
-	margin-top: 50px;
-}
+
 
 
