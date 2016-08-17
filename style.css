@@ -38,6 +38,10 @@ h1{
 #ACM,#ACI{
 	padding:10px;
 }
+
+.acm,.aci,.afe{
+	padding:10px;
+}
 .aci{
 	content:url("Logos/aci - color.png");
 	
